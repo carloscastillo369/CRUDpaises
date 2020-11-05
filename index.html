@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="crud-container">
+        <div class="header">
+            <h1 class="tittle">CRUD</h1>
+            <button id="addCrud" class="btn-Add">ADD</button>
+        </div>
+        <div id="cardsContainer" class="cards-container">
+        </div>
+    </div>
+
+    <div id="modalAdd" class="modal-add">
+        <h2>MODAL ADD</h2>
+        <form id="formAdd" class="formulario">
+            <input id="inputPais" type="text" placeholder="Pais">
+            <input id="inputCapital" type="text" placeholder="Capital">
+            <div id="buttons" class="botones">
+                <button id="btnGuardar" type="submit" class="btn-Add">Agregar</button>
+                <button id="btnCerrar" class="btn-Add">Cerrar</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="modalEdit" class="modal-add">
+        <h2>MODAL EDIT</h2>
+        <form id="formEdit" class="formulario">
+            <input id="datapais" type="text" placeholder="Pais">
+            <input id="datacapital" type="text" placeholder="Capital">
+            <div class="botones">
+                <button id="btnAceptar" type="submit" class="btn-Add">Aceptar</button>
+                <button id="btnClose" class="btn-Add">Cerrar</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="./apps.js"></script>
+</body>
+</html>
